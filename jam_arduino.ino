@@ -27,9 +27,9 @@ const byte JUMLAH_WAKTU = sizeof(NamaWaktu)/sizeof(char*);
 const byte DATA_WAKTU = 2; // jam dan menit
 byte WaktuPenting[JUMLAH_WAKTU][DATA_WAKTU];
 
-// pengaturan bujur lintang (ciluar) -6.543309, 106.827641
-float _lat = -6.543309;    // lintang
-float _lng = 106.827641;   // bujur
+// pengaturan bujur lintang (bogor) -6.595038,106.816635
+float _lat = -6.595038;    // lintang
+float _lng = 106.816635;   // bujur
 
 // timezone
 int _timezone = 7; // zona waktu WIB=7, WITA=8, WIT=9
